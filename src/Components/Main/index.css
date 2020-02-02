@@ -4,17 +4,17 @@ main {
   min-height: calc(100vh - 76px);
   align-items: center;
   justify-content: space-around;
+  padding: 10px;
 }
 
 main .container {
-  min-width: 300px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 9px 15px 0 rgba(0,0,0,.1);
+  box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
 }
 
 main .container div.event {
-  color: #7289DA;
+  color: #7289da;
 }
