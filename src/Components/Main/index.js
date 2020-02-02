@@ -29,7 +29,7 @@ class Main extends React.Component {
 
   checkBirthday() {
     let currentDate = new Date()
-    let eventDate = new Date(new Date().getFullYear(), 1, 3)
+    let eventDate = new Date(new Date().getFullYear(), 1, 4)
 
     if (currentDate.toDateString() === eventDate.toDateString()) {
       this.setState({
